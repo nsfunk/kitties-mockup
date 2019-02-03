@@ -25,17 +25,20 @@ nav{
   padding-left: 13rem;
   margin: -1rem;
 }
-.nav-links1{
+.nav-links{
   color: grey;
   text-decoration: none;
+  word-spacing: normal;
+}
+.between-nav{
+  color: grey;
+  word-spacing: 10px;
 }
 .body{
   padding-top: 3rem;
   padding-right: 12rem;
   padding-left: 12rem;
-  padding-bottom: 4rem;
-}
-article{
+  padding-bottom: 8rem;
 }
 section{
   padding-bottom: 2rem;
@@ -52,11 +55,11 @@ a{
   color: SkyBlue;
 }
 q{
-  color: SteelBlue;
+  color: SkyBlue;
   font-size: 22px;
 }
 #source-quote{
-  color: SteelBlue;
+  color: SkyBlue;
   font-size: 22px;
   margin-top: -0.01rem;
   margin-bottom: -0.5rem;
@@ -65,10 +68,19 @@ h3{
   color: DimGray;
   margin-bottom: -0.5rem;
 }
+.main{
+  float: left;
+  width: 70%;
+}
 aside{
   float: right;
-  width: 20rem;
+  width: 30%;
   padding-left: 3rem;
+}
+figure{
+  margin: 0px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 img{
   width:100%;
@@ -80,16 +92,26 @@ footer{
   padding-bottom: 4rem;
   padding-left: 13rem;
   margin: -1rem;
-  margin-bottom:-2rem;
-  align-content: center;
-
+  clear: both;
 }
 #logo{
+  display: block;
   width: 25%;
-}
-.footer-links{
-  background-color: DimGray;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-text{
-    color:white;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+.footer-links{
+  color: white;
+  text-decoration: none;
+  word-spacing: normal;
+}
+.between-footer-links{
+  color: white;
+  word-spacing: 10px;
+  text-align: center;
 }
