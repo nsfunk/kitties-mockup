@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: SkyBlue;
+  padding-top: 4rem;
+  padding-right: 13rem;
+  padding-bottom: 4rem;
+  padding-left: 13rem;
+  margin: -1rem;
+}
+h1{
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+#beneath-h1{
+  color: white;
+  font-size: 25px;
+  margin-top: -20px;
+}
+nav{
+  background-color: WhiteSmoke;
+  padding: 2rem;
+  padding-left: 13rem;
+  margin: -1rem;
+}
+.nav-links1{
+  color: grey;
+  text-decoration: none;
+}
+.body{
+  padding-top: 3rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
+  padding-bottom: 4rem;
+}
+article{
+}
+section{
+  padding-bottom: 2rem;
+}
+p{
+  color: DimGray;
+}
+h2{
+  color: SkyBlue;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: SkyBlue;
+}
+q{
+  color: SteelBlue;
+  font-size: 22px;
+}
+#source-quote{
+  color: SteelBlue;
+  font-size: 22px;
+  margin-top: -0.01rem;
+  margin-bottom: -0.5rem;
+}
+h3{
+  color: DimGray;
+  margin-bottom: -0.5rem;
+}
+aside{
+  float: right;
+  width: 20rem;
+  padding-left: 3rem;
+}
+img{
+  width:100%;
+}
+footer{
+  background-color: DimGray;
+  padding-top: 4rem;
+  padding-right: 13rem;
+  padding-bottom: 4rem;
+  padding-left: 13rem;
+  margin: -1rem;
+  margin-bottom:-2rem;
+  align-content: center;
+
+}
+#logo{
+  width: 25%;
+}
+.footer-links{
+  background-color: DimGray;
+}
+.footer-text{
+    color:white;
+}
