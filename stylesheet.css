@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
 }
+/*header start*/
 header{
   background-color: SkyBlue;
   padding-top: 4rem;
@@ -18,11 +19,13 @@ h1{
   color: white;
   font-size: 25px;
   margin-top: -20px;
+  width: 20rem;
 }
 nav{
   background-color: WhiteSmoke;
   padding: 2rem;
   padding-left: 13rem;
+  padding-right: 13rem;
   margin: -1rem;
 }
 .nav-links{
@@ -34,11 +37,11 @@ nav{
   color: grey;
   word-spacing: 10px;
 }
+/*header stop*/
 .body{
   padding-top: 3rem;
   padding-right: 12rem;
   padding-left: 12rem;
-  padding-bottom: 8rem;
 }
 section{
   padding-bottom: 2rem;
@@ -54,11 +57,11 @@ a{
   text-decoration: none;
   color: SkyBlue;
 }
-q{
+q{ /*index.html*/
   color: SkyBlue;
   font-size: 22px;
 }
-#source-quote{
+#source-quote{ /*index.html*/
   color: SkyBlue;
   font-size: 22px;
   margin-top: -0.01rem;
@@ -68,11 +71,11 @@ h3{
   color: DimGray;
   margin-bottom: -0.5rem;
 }
-.main{
+.main{ /*index.html*/
   float: left;
   width: 70%;
 }
-aside{
+aside{ /*index.html*/
   float: right;
   width: 30%;
   padding-left: 3rem;
@@ -85,13 +88,14 @@ figure{
 img{
   width:100%;
 }
+/*footer start*/
 footer{
   background-color: DimGray;
   padding-top: 4rem;
   padding-right: 13rem;
   padding-bottom: 4rem;
   padding-left: 13rem;
-  margin: -1rem;
+  margin: 0rem -1rem 0rem -1rem;
   clear: both;
 }
 #logo{
@@ -115,3 +119,4 @@ footer{
   word-spacing: 10px;
   text-align: center;
 }
+/*footer stop*/
